@@ -6,32 +6,32 @@ using namespace std;
 
 class Card {
 public:
-    string nameCard = " ";
+    string name = " ";
     int hp = 0;
-    int dmg = 0;
-    string dmgSTR = " ";
-    string hpSTR = " ";
-    int qualityCard = 0;
+    int damage = 0;
+    int quality = 0;
+    string damageStr = " ";
+    string hpStr = " ";
     const long int imageSize;
-    const unsigned char* CardPhotoImage;
+    const unsigned char* image;
 
-    Card(string name, int hp, int dmg, long int imgSize, unsigned char* arrImage) :imageSize(imgSize), CardPhotoImage(arrImage)
+    Card(string name, int hp, int damage, long int imageSize, unsigned char* image) :imageSize(imageSize), image(image)
     {
-        nameCard = name;
+        this->name = name;
         this->hp = hp;
-        this->dmg = dmg;
+        this->damage = damage;
 
+        damageStr = to_string(damage);
+        hpStr = to_string(hp);
 
-        dmgSTR = to_string(dmg);
-        hpSTR = to_string(hp);
-
-        if (dmgSTR.size() == 1)
+        if (damageStr.size() == 1)
         {
-            dmgSTR.append(" ");
+            damageStr.append(" ");
         }
-        if (hpSTR.size() == 1)
+
+        if (hpStr.size() == 1)
         {
-            hpSTR.append(" ");
+            hpStr.append(" ");
         }
     }
 };

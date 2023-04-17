@@ -8,6 +8,7 @@
 #include <WinUser.h>
 #include "EasyBMP.h"
 #include "megumin_picture.h"
+#include "card.cpp"
 using namespace std;
 
 class Slot {
@@ -174,11 +175,11 @@ void printCard(vector<Card>& hand)
 		SetConsoleCursorPosition(hout, coord);
 		SetConsoleTextAttribute(hout, 236);
 		cout << string(1, ' ');
-		cout << hand[j].hpSTR;
+		cout << hand[j].hpStr;
 		SetConsoleTextAttribute(hout, 237);
-		cout << hand[j].nameCard;
+		cout << hand[j].name;
 		SetConsoleTextAttribute(hout, 227);
-		cout << hand[j].dmgSTR;
+		cout << hand[j].damageStr;
 		cout << string(1, ' ');
 		SetConsoleTextAttribute(hout, 15);
 	}
