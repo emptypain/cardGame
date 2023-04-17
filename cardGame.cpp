@@ -8,20 +8,17 @@
 #include <WinUser.h>
 #include "EasyBMP.h"
 #include "megumin_picture.h"
+#include "Card.cpp"
 using namespace std;
 
 class Slot {
 public:
 
-	COORD coord;
-	
 	COORD topRight;
 	COORD topLeft;
 	COORD bottomRight;
 	COORD bottomLeft;
 };
-
-
 
 void calculateSlotPosithion(Slot slotArray[6])
 {
@@ -36,40 +33,31 @@ void calculateSlotPosithion(Slot slotArray[6])
 
 		coord.X = 17 + startingPointX + i * 20;
 
-		for (int j = 0;j < 10;j++)
-		{
-			SetConsoleCursorPosition(hout, coord);
-			SetConsoleTextAttribute(hout, 13);
-			cout << "|";
-			coord.Y++;
-		}
-		SetConsoleTextAttribute(hout, 15);
-
-		coord.X = startingPointX + (i * 20);
-		coord.Y = startingPointY + 3;
-
-		for (int j = 0;j < 10;j++)
-		{
-			SetConsoleCursorPosition(hout, coord);
-			SetConsoleTextAttribute(hout, 13);
-			cout << "|";
-			coord.Y++;
-		}
-		SetConsoleTextAttribute(hout, 15);
-
 		coord.X = startingPointX + (i * 20);
 		coord.Y = 2 + startingPointY;
+
+		slotArray[i].topLeft.X = coord.X;
+		slotArray[i].topLeft.Y = coord.Y;
 		SetConsoleCursorPosition(hout, coord);
 		SetConsoleTextAttribute(hout, 13);
-		cout << "+" << string(16, '-') << "+";
+		cout << "+" << string(16, ' ') << "+";
 		SetConsoleTextAttribute(hout, 15);
+
+		slotArray[i].topRight.X = coord.X;
+		slotArray[i].topRight.Y = coord.Y;
 
 		coord.X = startingPointX + (i * 20);
 		coord.Y = 12 + startingPointY;
+
+		slotArray[i].bottomLeft.X = coord.X;
+		slotArray[i].bottomLeft.Y = coord.Y;
 		SetConsoleCursorPosition(hout, coord);
 		SetConsoleTextAttribute(hout, 13);
-		cout << "+" << string(16, '-') << "+";
+		cout << "+" << string(16, ' ') << "+";
 		SetConsoleTextAttribute(hout, 15);
+
+		slotArray[i].bottomRight.X = coord.X;
+		slotArray[i].bottomRight.Y = coord.Y;
 	}
 }
 
