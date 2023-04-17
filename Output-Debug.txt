@@ -1,0 +1,22 @@
+﻿'cardGame.exe' (Win32): Loaded 'C:\Users\empty\source\repos\cardGame\x64\Debug\cardGame.exe'. Symbols loaded.
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\user32.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\win32u.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\gdi32.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\gdi32full.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\msvcp_win.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\ole32.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\combase.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+'cardGame.exe' (Win32): Loaded 'C:\Windows\System32\imm32.dll'. 
+The thread 0x3444 has exited with code 0 (0x0).
+The thread 0x1ae4 has exited with code 0 (0x0).
+The thread 0x1e74 has exited with code 0 (0x0).
+The thread 0x11b0 has exited with code 0 (0x0).

@@ -1,0 +1,65 @@
+﻿  Card.cpp
+  cardGame.cpp
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(58,3): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(58,13): error C2065: 'startingPointY': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(60,3): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(60,18): error C2065: 'startingPointX': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(64,29): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(64,35): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(65,28): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(67,4): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(69,27): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(71,3): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(71,13): error C2065: 'startingPointX': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(72,3): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(72,13): error C2065: 'startingPointY': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(76,29): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(76,35): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(77,28): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(79,4): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(81,27): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(83,3): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(83,13): error C2065: 'startingPointX': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(84,3): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(84,17): error C2065: 'startingPointY': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(85,28): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(85,34): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(86,27): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(88,27): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(90,3): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(90,13): error C2065: 'startingPointX': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(91,3): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(91,18): error C2065: 'startingPointY': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(92,28): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(92,34): error C2065: 'coord': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(93,27): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(95,27): error C2065: 'hout': undeclared identifier
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(212,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(239,41): error C2059: syntax error: ')'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(240,7): error C2734: 'megumin_picture_bmp': 'const' object must be initialized if not 'extern'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(244,2): error C2146: syntax error: missing ';' before identifier 'Card'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(240,12): error C2661: 'Card::Card': no overloaded function takes 3 arguments
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(240,12): message : while trying to match the argument list '(const char [11], int, int)'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(245,12): error C2661: 'Card::Card': no overloaded function takes 3 arguments
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(245,12): message : while trying to match the argument list '(const char [11], int, int)'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(246,12): error C2661: 'Card::Card': no overloaded function takes 3 arguments
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(246,12): message : while trying to match the argument list '(const char [11], int, int)'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(247,12): error C2661: 'Card::Card': no overloaded function takes 3 arguments
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(247,12): message : while trying to match the argument list '(const char [11], int, int)'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(248,12): error C2661: 'Card::Card': no overloaded function takes 3 arguments
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(248,12): message : while trying to match the argument list '(const char [11], int, int)'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(249,12): error C2661: 'Card::Card': no overloaded function takes 3 arguments
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(249,12): message : while trying to match the argument list '(const char [11], int, int)'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(250,12): error C2661: 'Card::Card': no overloaded function takes 3 arguments
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(250,12): message : while trying to match the argument list '(const char [11], int, int)'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(251,12): error C2661: 'Card::Card': no overloaded function takes 3 arguments
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(251,12): message : while trying to match the argument list '(const char [11], int, int)'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(252,12): error C2661: 'Card::Card': no overloaded function takes 3 arguments
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(252,12): message : while trying to match the argument list '(const char [11], int, int)'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(253,13): error C2661: 'Card::Card': no overloaded function takes 3 arguments
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(253,13): message : while trying to match the argument list '(const char [11], int, int)'
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(254,13): error C2661: 'Card::Card': no overloaded function takes 3 arguments
+C:\Users\empty\source\repos\cardGame\cardGame.cpp(254,13): message : while trying to match the argument list '(const char [11], int, int)'
+  EasyBMP.cpp
+C:\Users\empty\source\repos\cardGame\EasyBMP.cpp(917,26): warning C4101: 'e': unreferenced local variable
+  Generating Code...
