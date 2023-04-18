@@ -17,6 +17,7 @@ public:
 
     Card(string name, int hp, int damage, long int imageSize, unsigned char* image) :imageSize(imageSize), image(image)
     {
+        //new commit
         this->name = name;
         this->hp = hp;
         this->damage = damage;
