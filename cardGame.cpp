@@ -1,4 +1,5 @@
 #include <iostream>
+//#include <WinSock2.h>
 #include <vector>
 #include <string>
 #include <Windows.h>
@@ -9,6 +10,8 @@
 #include "EasyBMP.h"
 #include "megumin_picture.h"
 #include "Card.cpp"
+//#pragma comment(lib, "ws2_32.lib")
+//#pragma warning(disable: 4996)
 using namespace std;
 
 class Slot {
@@ -172,8 +175,30 @@ void printCard(vector<Card>& hand)
 	}
 }
 
-int main()
+int main(int argc, char* argv[])
 {
+	//WSAData wsaData;
+	//WORD DLLVersion = MAKEWORD(2, 1);
+	//if (WSAStartup(DLLVersion, &wsaData) != 0)
+	//{
+	//	cout << "Error";
+	//	exit(1);
+	//} // server
+	//
+	//SOCKADDR_IN addr;
+	//int sizeSockAddr = sizeof(addr);
+	//addr.sin_addr.s_addr = inet_addr("192.168.0.10");
+	//addr.sin_port = htons(11111);
+	//addr.sin_family = AF_INET; //server
+	//
+	//SOCKET connection = socket(AF_INET, SOCK_STREAM, NULL);
+	//if (connect(connection, (SOCKADDR*)&addr, sizeSockAddr) != 0)
+	//{
+	//	cout << "Eror conection server!" << endl;
+	//	return 1;
+	//}
+	//cout << "Connection server!" << std::endl; // server
+
 	srand(time(NULL));
 
 	COORD xy;
@@ -201,31 +226,31 @@ int main()
 
 
 
-	Card card0("  Serega  ", 20, 10);
-	Card card1("  Nikitos ", 20, 1);
-	Card card2(" Arseniy  ", 1, 10);
-	Card card3("   Dimos  ", 50, 20);
-	Card card4("   Gleb   ", 50, 60);
-	Card card5("   vlad   ", 0, 00);
-	Card card6("    An    ", 10, 11);
-	Card card7("   vova   ", 1, 99);
-	Card card8("   Ilya   ", 4, 4);
-	Card card9("  pushok  ", 1, 3);
-	Card card10("   vasya  ", 1, 2);
-	Card card11("  Ksyusha ", 1, 77);
+	//Card card0("  Serega  ", 20, 10);
+	//Card card1("  Nikitos ", 20, 1);
+	//Card card2(" Arseniy  ", 1, 10);
+	//Card card3("   Dimos  ", 50, 20);
+	//Card card4("   Gleb   ", 50, 60);
+	//Card card5("   vlad   ", 0, 00);
+	//Card card6("    An    ", 10, 11);
+	//Card card7("   vova   ", 1, 99);
+	//Card card8("   Ilya   ", 4, 4);
+	//Card card9("  pushok  ", 1, 3);
+	//Card card10("   vasya  ", 1, 2);
+	//Card card11("  Ksyusha ", 1, 77);
 
-	hand.push_back(card0);
-	hand.push_back(card1);
-	hand.push_back(card2);
-	hand.push_back(card3);
-	hand.push_back(card4);
-	hand.push_back(card5);
-	hand.push_back(card6);
-	hand.push_back(card7);
-	hand.push_back(card8);
-	hand.push_back(card9);
-	hand.push_back(card10);
-	hand.push_back(card11);
+	//hand.push_back(card0);
+	//hand.push_back(card1);
+	//hand.push_back(card2);
+	//hand.push_back(card3);
+	//hand.push_back(card4);
+	//hand.push_back(card5);
+	//hand.push_back(card6);
+	//hand.push_back(card7);
+	//hand.push_back(card8);
+	//hand.push_back(card9);
+	//hand.push_back(card10);
+	//hand.push_back(card11);
 
 
 	shuffle(hand.begin(), hand.end(), g);

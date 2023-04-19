@@ -1,3 +1,26 @@
 ﻿  cardGame.cpp
-C:\Users\empty\source\repos\cardGame\cardGame.cpp(198,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  cardGame.vcxproj -> C:\Users\empty\source\repos\cardGame\x64\Debug\cardGame.exe
+C:\Users\empty\Desktop\resources\CardGm\cardGame.cpp(202,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\utility(78,5): error C2672: 'swap': no matching overloaded function found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\type_traits(1968,19): message : could be 'void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\utility(78,5): message : 'void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)': could not deduce template argument for '_Ty (&)[_Size]' from 'Card'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\type_traits(1965,19): message : or       'void std::swap(_Ty &,_Ty &) noexcept(<expr>)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\utility(77): message : 'void std::swap(_Ty &,_Ty &) noexcept(<expr>)': could not deduce template argument for '_Enabled'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(5175): message : see reference to function template instantiation 'void std::iter_swap<Card*,Card*>(_FwdIt1,_FwdIt2)' being compiled
+          with
+          [
+              _FwdIt1=Card *,
+              _FwdIt2=Card *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\algorithm(5197): message : see reference to function template instantiation 'void std::_Random_shuffle1<_RanIt,std::_Rng_from_urng<__int64,_Urng0>>(_RanIt,_RanIt,_RngFn &)' being compiled
+          with
+          [
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Card>>>,
+              _RngFn=std::_Rng_from_urng<__int64,_Urng0>
+          ]
+C:\Users\empty\Desktop\resources\CardGm\cardGame.cpp(256,37): message : see reference to function template instantiation 'void std::shuffle<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::mt19937&>(_RanIt,_RanIt,_Urng)' being compiled
+          with
+          [
+              _Ty=Card,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Card>>>,
+              _Urng=std::mt19937 &
+          ]
